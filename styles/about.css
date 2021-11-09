@@ -1,0 +1,62 @@
+#about {
+  padding: 5rem 0 4.9rem;
+  background-color: #fcfcfc;
+  position: relative;
+}
+
+#about > div {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 9.6rem;
+}
+
+#about > div > div:nth-child(1) {
+  background-image: url(../assets/restaurant-5521372_1920\ 1.png);
+  background-repeat: no-repeat;
+  width: 44.8rem;
+  height: 50.1rem;
+  position: relative;
+}
+
+#about > div > div:nth-child(1) img {
+  width: 14.15rem;
+  position: absolute;
+  top: 2.226rem;
+  left: -7.688rem;
+}
+
+#about > div > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 11.8rem;
+}
+
+#about > div > div:nth-child(2) h2 {
+  margin-bottom: 2.4rem;
+}
+
+#about > div > div:nth-child(2) p {
+  margin-bottom: 2.4rem;
+}
+
+#about > div > div:nth-child(2) a {
+  padding: 1.2rem 4rem;
+  max-width: 14.8rem;
+}
+
+.tomato {
+  width: 15rem;
+  height: 13.216rem;
+  position: absolute;
+  top: -6.3rem;
+  right: 14.1rem;
+}
+
+.pizza {
+  width: 12.817rem;
+  height: 12.817rem;
+  position: absolute;
+  bottom: 9.4rem;
+  right: 10.1rem;
+}

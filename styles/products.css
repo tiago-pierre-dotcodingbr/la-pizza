@@ -1,18 +1,61 @@
-section.products {
+#products {
   padding-top: 14.1rem;
   padding-bottom: 19.3rem;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-section.products h1 {
+#products h2 {
   text-align: center;
   margin-bottom: 8.8rem;
 }
 
-section.products .cards {
+.plant {
+  width: 10rem;
+  height: 12rem;
+  position: absolute;
+  top: -3.5rem;
+  left: 0;
+}
+
+.fish {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 8rem;
+  left: 38.2rem;
+}
+
+.mashroom {
+  width: 5rem;
+  height: 4.37rem;
+  position: absolute;
+  top: 8.7rem;
+  right: 19.8rem;
+}
+
+.leaf {
+  width: 6rem;
+  height: 9.677rem;
+  position: absolute;
+  top: 32.7rem;
+  right: 11.902rem;
+}
+
+.chili {
+  width: 13.384rem;
+  height: 9.02rem;
+  position: absolute;
+  top: 56.4rem;
+  left: 1.9rem;
+}
+
+#products .cards {
   display: flex;
   justify-content: space-between;
 }
 
-section.products .cards div.card {
+#products .cards div.card {
   height: 27.5rem;
   width: 25.6rem;
   border-radius: 25px;
@@ -24,13 +67,13 @@ section.products .cards div.card {
   position: relative;
 }
 
-section.products .cards div.card > img {
+#products .cards div.card > img {
   width: 12rem;
   margin-top: -6rem;
   margin-bottom: 1.6rem;
 }
 
-section.products .cards div.card button {
+#products .cards div.card button {
   border: 2px solid #cf3031;
   border-radius: 14px;
   background-color: #ffd4c9;
@@ -44,17 +87,17 @@ section.products .cards div.card button {
   top: -1.4rem;
 }
 
-section.products .cards div.card button img {
+#products .cards div.card button img {
   width: 1.2rem;
 }
 
-section.products .cards div.card h2 {
+#products .cards div.card h2 {
   font-weight: 600;
   font-size: 1.8rem;
   margin-bottom: 0.8rem;
 }
 
-section.products .cards div.card p {
+#products .cards div.card p {
   font-weight: 300;
   font-size: 1.4rem;
   line-height: 2rem;
@@ -64,14 +107,14 @@ section.products .cards div.card p {
   margin-bottom: 2.8rem;
 }
 
-section.products .cards div.card h3 {
+#products .cards div.card h3 {
   font-weight: 600;
   font-size: 3.2rem;
   line-height: 4rem;
   margin-bottom: 2.4rem;
 }
 
-section.products .cards div.card a.button {
+#products .cards div.card a.button {
   font-size: 1.2rem;
   display: flex;
   padding: 0.8rem 3.2rem;
