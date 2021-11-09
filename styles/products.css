@@ -1,0 +1,28 @@
+section.products {
+  padding-top: 14.1rem;
+  padding-bottom: 19.3rem;
+}
+section.products h1 {
+  text-align: center;
+  margin-bottom: 8.8rem;
+}
+
+section.products .cards {
+  display: flex;
+}
+
+section.products .cards .card {
+  height: 27.5rem;
+  width: 25.6rem;
+  border-radius: 25px;
+  background-color: var(--pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.products .cards .card img {
+  width: 12rem;
+  margin-top: -6rem;
+  margin-bottom: 1.6rem;
+}
