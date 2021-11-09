@@ -54,3 +54,10 @@ h1.logo {
   max-width: 112rem;
   margin: 0 auto;
 }
+
+.button {
+  background-color: var(--yellow);
+  border-radius: 25px;
+  font-weight: 600;
+  color: var(--title);
+}

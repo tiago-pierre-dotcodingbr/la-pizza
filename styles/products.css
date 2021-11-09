@@ -9,9 +9,10 @@ section.products h1 {
 
 section.products .cards {
   display: flex;
+  justify-content: space-between;
 }
 
-section.products .cards .card {
+section.products .cards div.card {
   height: 27.5rem;
   width: 25.6rem;
   border-radius: 25px;
@@ -19,10 +20,59 @@ section.products .cards .card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 3.8rem;
+  position: relative;
 }
 
-section.products .cards .card img {
+section.products .cards div.card > img {
   width: 12rem;
   margin-top: -6rem;
   margin-bottom: 1.6rem;
+}
+
+section.products .cards div.card button {
+  border: 2px solid #cf3031;
+  border-radius: 14px;
+  background-color: #ffd4c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  right: 0.6rem;
+  top: -1.4rem;
+}
+
+section.products .cards div.card button img {
+  width: 1.2rem;
+}
+
+section.products .cards div.card h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+section.products .cards div.card p {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+
+  color: var(--description);
+  margin-bottom: 2.8rem;
+}
+
+section.products .cards div.card h3 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin-bottom: 2.4rem;
+}
+
+section.products .cards div.card a.button {
+  font-size: 1.2rem;
+  display: flex;
+  padding: 0.8rem 3.2rem;
 }
