@@ -60,3 +60,58 @@
   bottom: 9.4rem;
   right: 10.1rem;
 }
+
+@media (max-width: 1159px) {
+  #about > div > div:nth-child(2) {
+    padding-right: 0rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tomato {
+    width: 15rem;
+    height: 13.216rem;
+    position: absolute;
+    top: -6.3rem;
+    right: 5rem;
+  }
+
+  .pizza {
+    width: 12.817rem;
+    height: 12.817rem;
+    position: absolute;
+    bottom: -3rem;
+    right: -5rem;
+  }
+
+  #about > div {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  #about > div > div:nth-child(1) {
+    margin: 0 auto;
+    background-size: cover;
+    width: 100%;
+  }
+  #about > div > div:nth-child(2) h2 {
+    text-align: center;
+  }
+  #about > div > div:nth-child(2) p {
+    text-align: center;
+  }
+  #about > div > div:nth-child(2) a {
+    text-align: center;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .tomato {
+    width: 15rem;
+    height: 13.216rem;
+    position: absolute;
+    top: -6.3rem;
+    right: 0rem;
+  }
+}

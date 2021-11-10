@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
@@ -44,39 +48,43 @@
           class="chili"
         />
         <h2 class="title">Mais vendidas</h2>
-        <div class="cards container">
-          <div class="card">
-            <img src="assets/la-cuma.png" alt="" />
-            <button><img src="assets/like.svg" alt="" /></button>
-            <h2>La Cuma</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <h3>R$ 23</h3>
-            <a href="" class="button">Comprar agora</a>
+        <div class="cards container swiper">
+          <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+              <img src="assets/la-cuma.png" alt="" />
+              <button><img src="assets/like.svg" alt="" /></button>
+              <h2>La Cuma</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h3>R$ 23</h3>
+              <a href="" class="button">Comprar agora</a>
+            </div>
+            <div class="card swiper-slide">
+              <img src="assets/la-menta.png" alt="" />
+              <button><img src="assets/like.svg" alt="" /></button>
+              <h2>La Menta</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h3>R$ 23</h3>
+              <a href="" class="button">Comprar agora</a>
+            </div>
+            <div class="card swiper-slide">
+              <img src="assets/la-bana.png" alt="" />
+              <button><img src="assets/like.svg" alt="" /></button>
+              <h2>La Bana</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h3>R$ 23</h3>
+              <a href="" class="button">Comprar agora</a>
+            </div>
+            <div class="card swiper-slide">
+              <img src="assets/la-toca.png" alt="" />
+              <button><img src="assets/like.svg" alt="" /></button>
+              <h2>La Toca</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h3>R$ 23</h3>
+              <a href="" class="button">Comprar agora</a>
+            </div>
           </div>
-          <div class="card">
-            <img src="assets/la-menta.png" alt="" />
-            <button><img src="assets/like.svg" alt="" /></button>
-            <h2>La Menta</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <h3>R$ 23</h3>
-            <a href="" class="button">Comprar agora</a>
-          </div>
-          <div class="card">
-            <img src="assets/la-bana.png" alt="" />
-            <button><img src="assets/like.svg" alt="" /></button>
-            <h2>La Bana</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <h3>R$ 23</h3>
-            <a href="" class="button">Comprar agora</a>
-          </div>
-          <div class="card">
-            <img src="assets/la-toca.png" alt="" />
-            <button><img src="assets/like.svg" alt="" /></button>
-            <h2>La Toca</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <h3>R$ 23</h3>
-            <a href="" class="button">Comprar agora</a>
-          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </section>
       <section id="about">
@@ -119,8 +127,10 @@
       <p>todos os direitos reservados</p>
     </footer>
 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="scripts/main.js"></script>
+    <script src="scripts/swiper.js"></script>
   </body>
 </html>
